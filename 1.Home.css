@@ -1,0 +1,164 @@
+@import "2.About.css";
+@import "3.Project.css";
+@import "4.Resume.css";
+@import "5.Contact.css";
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic ;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-image: url(2.Bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    align-items: center;
+}
+
+
+.main
+{
+    position: fixed;
+    width: 100%;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* padding-bottom: 3px; */
+    /* padding-top: 2px; */
+    top: 0;
+    overflow: hidden;
+}
+
+.page
+{
+    height: 100vh;
+    width: 100vw;
+}
+
+iframe
+{
+    height: 100vh;
+    width: 100vw;
+}
+
+.Home
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main ul
+{
+    float: right;
+    list-style-type: none;
+    margin: 20px 20px 0 0;
+    
+}
+
+.main ul li 
+{
+    display: inline-block;
+    
+}
+
+.main ul li a
+{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 1px solid transparent;
+    transition: 0.6s ease;   
+}
+
+ul li a:hover
+{
+    background-color: white;
+    color: #000;
+}
+
+ul li.active a 
+{
+    background-color: #ffffff;
+    color: black;
+}
+
+.logo1 
+{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;    
+}
+
+.center
+{
+    width: 100%;
+    text-align: center;
+}
+
+.center h1
+{
+    color: white;
+    font-size: 45px;
+    
+}
+
+.button
+{
+    max-width: 70vw;
+    max-height: 15vh;
+    margin: 10vh auto;
+    text-align: center;
+}
+
+.btn0,.btn1
+{
+    border: 1px solid white ;
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn0:hover,.btn1:hover
+{
+    background-color: white;
+    color: black;
+}
+
+@media (max-width:600px)
+{
+    .button
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .btn1,.btn0
+    {
+        margin: 10px 10px;
+        width: 100px;
+        display: block;
+    }    
+}
+
+@media (max-width:370px)
+{
+    .main ul li a
+    {
+        padding-left: 3px;   
+    }
+}
+
+

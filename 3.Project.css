@@ -1,0 +1,53 @@
+/* html
+{
+    box-sizing: border-box;
+}
+*, *:before, *:after
+{
+    box-sizing: inherit;
+} */
+
+
+/* body
+{
+    background-image: url(projectbg2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    align-items: center;
+} */
+
+/* ----------------------Wrapper/Container---------------------- */
+
+/* .Projectwrapper
+{
+    max-width: 1347px;
+    height: 660px;
+    margin: -10px;
+    bottom: 0;
+    background-image: url(project-hfbg2.png);
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  */
+
+/* body
+{
+    background-image: url(projectbg2.jpg), url(project-hfbg2.png);
+    background-position:left top,  right top;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+} */
+
+img
+{
+    background-size: cover;
+    background-attachment: fixed;
+    margin-right: 0;
+    right: 0;
+}
